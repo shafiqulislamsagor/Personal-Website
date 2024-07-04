@@ -1,0 +1,102 @@
+import ayla from '/public/image/ayla.jpg';
+import crefin from '/public/image/crefin.jpg';
+import realEstate from '/public/image/real-estate.jpg';
+import travel from '/public/image/travel.jpg';
+
+export const projectsData = [
+    {
+        id: 1,
+        name: 'SM Food',
+        description: "SM Food features a distinctive design and ensures responsiveness across all devices. It includes email/password authentication with error messages, and social media login options. The interactive navbar displays user-specific options. Users can manage products and profiles, with functionalities to add, update, and delete products, ensuring a seamless experience.",
+        tools: ["HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Eslint",
+      "React JS",
+      "React Router",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Firebase",],
+        role: 'MERN Stack Developer',
+        code: 'https://github.com/shafiqulislamsagor/SM-Food-A11-Client',
+        server:'https://github.com/shafiqulislamsagor/SM-Food-A11',
+        demo: 'https://sm-food.web.app',
+        image: "https://i.ibb.co/ngKd29h/Screenshot-2024-06-14-172707.png",
+    },
+    {
+        id: 2,
+        name: 'SM Textile',
+        description: 'SM Textile features a distinct design and ensures responsiveness across all devices. It includes email/password authentication with social media login options and error messages. The interactive navbar displays user-specific options. Users can efficiently update, delete products, and manage profiles within the application.',
+        tools: [ "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "Eslint",
+            "React JS",
+            "React Router",
+            "MongoDb",
+            "Node Js",
+            "Express Js",
+            "Firebase",],
+        role: 'MERN Stack Developer',
+        code: 'https://github.com/shafiqulislamsagor/MS-Textile-A10',
+        demo: 'https://sm-textile-ef353.web.app/',
+        image: "https://i.ibb.co/NxZ4xzT/Screenshot-2024-06-14-173433.png",
+    },
+    {
+        id: 3,
+        name: 'MS Build',
+        description: 'Ms builds a website with a unique design, ensuring responsiveness on all devices. It features email/password authentication with social media login options and error messages. The interactive navbar shows user-specific options. It presents estate listings with detailed info and images, enabling secure viewing and smooth navigation.',
+        tools: [
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "Eslint",
+            "React JS",
+            "React Router",
+            "MongoDb",
+            "Node Js",
+            "Express Js",
+            "Firebase",
+          ],
+          role: 'MERN Stack Developer',
+        code: 'https://github.com/shafiqulislamsagor/MS-Build-A9',
+        demo: 'https://ms-build-1ae32.web.app/',
+        image: "https://i.ibb.co/qkykXNw/Screenshot-2024-06-14-174128.png",
+    },
+    {
+        id: 4,
+        name: 'MS Medicine',
+        description: "MS Medicine is an elegant e-commerce website for buying and selling medicines, featuring distinct design and full responsiveness. Firebase handles authentication with Google login and account creation. Users choose roles (User/Seller) post-registration. The secure site requires login for most pages, supports Stripe payments, and offers downloadable PDFs of transactions. Sellers manage products and earnings, while admins oversee all activities, control roles, and manage categories and banners. Each user has a dashboard for profile updates and issue tracking. All routes are dynamic and conditional.",
+        tools: ["HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Eslint",
+        "React JS",
+        "React Router",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Firebase",],
+        code: 'https://github.com/shafiqulislamsagor/MS-Medicine',
+        server:"https://github.com/shafiqulislamsagor/MS-Medicine-server",
+        demo: 'https://sm-medicine.web.app/',
+        image: "https://i.ibb.co/GQhBF1h/Screenshot-2024-06-14-174920.png",
+        role: 'MERN Stack Developer',
+    }
+];
+
+
+// Do not remove any property.
+// Leave it blank instead as shown below
+
+// {
+//     id: 1,
+//     name: '',
+//     description: "",
+//     tools: [],
+//     role: '',
+//     code: '',
+//     demo: '',
+//     image: crefin,
+// },
